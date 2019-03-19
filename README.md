@@ -1,6 +1,9 @@
 
 ## Test project using Serenity-BDD and Cucumber
-Set up the serenity.conf file before running.
+
+### Project Config
+Set up the `serenity.conf` file before running.
+This file is located in: `/src/test/resources/`
 
 For example:
 Fill in the website base URL: `webdriver.base.url = "https://www.mywebsite.org"`  
@@ -8,14 +11,13 @@ Choose to run webdriver in headless mode or not: `headless.mode = false`
 
 The project includes webdriver binaries to run the tests.
 
-## Test execution
+### Test execution
 Execute `gradle clean test` to run the test.  
 Currently there might be some problems running this with JDK 11.  
 Gradle version 4 or 5 with JDK 8 should work.
 https://github.com/gradle/gradle/issues/8286  
 
-
-##Test report
+### Test report
 After running the tests, the results can be found in: ../target/site/serenity/index.html
 
 ### The project directory structure
