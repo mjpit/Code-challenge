@@ -1,5 +1,5 @@
 
-## The front end test project using Serenity-BDD and Cucumber
+## Test project using Serenity-BDD and Cucumber
 Set up the serenity.conf file before running.
 
 For example:
@@ -21,6 +21,7 @@ After running the tests, the results can be found in: ../target/site/serenity/in
 ### The project directory structure
 The project has build scripts for Gradle, and follows the standard directory structure used in most Serenity projects:
 
+```
 src
   + main
   + test
@@ -36,5 +37,5 @@ src
           chromedriver.exe          OS-specific Webdriver binaries
           geckodriver.exe
 
-``
+```
 
