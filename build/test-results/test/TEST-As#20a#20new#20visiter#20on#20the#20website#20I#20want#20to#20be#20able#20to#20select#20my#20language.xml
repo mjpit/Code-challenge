@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="As a new visiter on the website I want to be able to select my language" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-03-19T20:09:42" hostname="MAC055" time="5.36">
+  <properties/>
+  <testcase name="Select Japanese language" classname="As a new visiter on the website I want to be able to select my language" time="5.36"/>
+  <system-out><![CDATA[21:09:42.157 [Test worker] INFO  n.t.c.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Select Japanese language
+-------------------------------------------------------------------(as-a-new-visiter-on-the-website-i-want-to-be-able-to-select-my-language;select-japanese-language)
+
+
+
+
+
+
+]]></system-out>
+  <system-err><![CDATA[Mar 19, 2019 9:09:42 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Mar 19, 2019 9:09:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+</testsuite>
