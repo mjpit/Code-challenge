@@ -12,9 +12,15 @@ Choose to run webdriver in headless mode or not: `headless.mode = false`
 The project includes webdriver binaries to run the tests.
 
 ### Test execution
-Execute `gradle clean test` to run the test.  
-Currently there might be some problems running this with JDK 11.  
-Gradle version 4 or 5 with JDK 8 should work.
+From the root fodler of the project it is possible to use gradlew on the commandline.  
+on Unix/Linux `./gradlew test`  
+on windows: `gradlew test`  
+
+Or use IDE specific solutions to run gradle tasks:
+Execute `gradle clean test` to run the tests.  
+    
+__Currently there are some problems running this with JDK 11.__  
+Gradle version 4 with JDK 8 should work.
 https://github.com/gradle/gradle/issues/8286  
 
 ### Test report
